@@ -9,6 +9,7 @@
   font-family: 'Barlow',
   sans-serif;
   font-weight: 600;
+  max-width: 100%;
 }
 
 .hero{
@@ -49,17 +50,15 @@ nav ul li a:hover {
 }
 .navbtn:hover{
   background-color: #fff;
-  transform:scale(1.2);
   cursor: pointer;
 }
 
-h1{
+header h1{
   color:white;
   font-size:100px;
-  align-content:center;
+  text-align:center;
+  margin-top:140px;
 }
-
-
 
 .container{
   background-color: lightgrey; 
@@ -69,29 +68,37 @@ h1{
 .sec {
   display:flex;
   flex-direction: row;
-  width: 1400px;
   background-color: rgb(216, 197, 197);
 
 }
 
 .section {
+
   flex-direction: row;
   background-color: rgba(241, 241, 231, 0.678);
   width: 50%;
   height: 600px;
-  margin-right: 10px;
-  margin-left: 10px;
+  
 }
 
+.sec .text{
+  box-sizing: border-box;
+  text-align:justify;
+  padding: 200px;
+}
 div .sec h1{
   text-align: center;
   display: block;
 }
 
+#sec4{
+   background-image: url(/desktop/image-graphic-design.jpg);
+}
+#sec4b {
+  background-image: url(/desktop/image-photography.jpg);
+}
 
-
-
-
+/
 .secfoot{
   display:flex;
   flex-direction: column;
